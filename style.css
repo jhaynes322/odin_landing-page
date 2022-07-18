@@ -6,4 +6,68 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-img {}
+
+.info-pics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.four-photos {
+    display: flex;
+    flex-direction: row;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#blockquote {
+    width: 700px;
+}
+
+.blue-box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid #3882f6;
+    background-color: #3882f6;
+    width: 800px;
+    height: 100px;
+}
+
+#bottom {
+    height: 50px;
 }
