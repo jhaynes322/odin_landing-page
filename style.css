@@ -8,8 +8,12 @@ body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
-    padding-left: 75px;
-    padding-right: 75px;
+}
+
+.side-margins {
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .header {
@@ -70,4 +74,9 @@ body {
 
 #bottom {
     height: 50px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
 }
