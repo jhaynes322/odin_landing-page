@@ -178,3 +178,46 @@ footer {
     padding-bottom: 35px;
     padding-top: 35px;
 }
+
+@media only screen and (max-width: 1000px) {
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-text {
+        width: 275px;
+        height: auto;
+    }
+
+    .hero-img {
+        padding-top: 20px;
+    }
+
+    #blockquote {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    #citation {
+        font-size: 24px;
+    }
+
+    .side-margins {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .call-to-action {
+        width: 150px;
+    }
+
+    .call-to-action h3 {
+        font-size: 12px;
+    }
+
+    .call-to-action p {
+        font-size: 10px;
+    }
+
+}
